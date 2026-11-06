@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABLE of Tampa Bay | Accountants, Bankers, Lawyers & Engineers</title>
+  <meta name="description" content="Connecting Tampa Bay professionals across accounting, banking, law, and engineering. Presented by Tampa Bay Women CPAs.">
+  <!-- Tailwind CSS CDN for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandNavy: '#0F2042',
+            brandGold: '#D4AF37',
+            brandGoldHover: '#B8972E',
+            brandPink: '#E83E8C',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div>
+        <span class="text-2xl font-serif font-bold tracking-tight text-brandNavy">ABLE</span>
+        <span class="block text-xs uppercase tracking-wider text-brandGold font-semibold">Tampa Bay</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-brandNavy transition">About</a>
+        <a href="#reception" class="hover:text-brandNavy transition">Annual Reception</a>
+        <a href="#sponsors" class="hover:text-brandNavy transition">Sponsors</a>
+        <a href="#directory" class="hover:text-brandNavy transition">Directory</a>
+      </nav>
+      <a href="#reception" class="inline-block bg-brandNavy hover:bg-slate-800 text-white text-xs font-semibold px-4 py-2 rounded-lg transition">
+        Event Info
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-b from-brandNavy to-[#162D5A] text-white py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center space-y-4">
+      <p class="text-brandGold uppercase tracking-widest text-xs font-bold">Accountants • Bankers • Lawyers • Engineers</p>
+      <h1 class="text-4xl md:text-5xl font-serif font-bold leading-tight">Connecting Tampa Bay’s Leading Professionals</h1>
+      <p class="text-slate-300 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
+        An affiliate initiative of Tampa Bay Women CPAs, fostering interdisciplinary relationships and professional referral networks across our region.
+      </p>
+      <div class="pt-4 flex flex-wrap justify-center gap-3">
+        <a href="#reception" class="bg-brandGold hover:bg-brandGoldHover text-brandNavy font-semibold text-sm px-6 py-3 rounded-lg shadow-md transition">
+          Annual Reception Details
+        </a>
+        <a href="#directory" class="bg-white/10 hover:bg-white/20 text-white font-medium text-sm px-6 py-3 rounded-lg border border-white/20 transition">
+          View Attendee Directory
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Event Section -->
+  <section id="reception" class="max-w-5xl mx-auto py-16 px-6">
+    <div class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm">
+      <div class="border-b border-slate-100 pb-6 mb-6">
+        <span class="text-brandPink font-bold text-xs uppercase tracking-wide">Signature Event</span>
+        <h2 class="text-2xl md:text-3xl font-serif font-bold text-brandNavy mt-1">Annual Networking Reception</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-600 mb-8">
+        <div>
+          <strong class="block text-brandNavy text-base mb-1">When</strong>
+          Annual Fall Event<br>Next Date TBA (Check back soon!)
+        </div>
+        <div>
+          <strong class="block text-brandNavy text-base mb-1">Where</strong>
+          Feather Sound Country Club<br>Clearwater, FL
+        </div>
+        <div>
+          <strong class="block text-brandNavy text-base mb-1">Presented By</strong>
+          Tampa Bay Women CPAs<br>In partnership with HAWL & SWE
+        </div>
+      </div>
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 text-center">
+        <p class="text-xs text-slate-500 mb-3">Ticket sales are hosted securely through Eventbrite.</p>
+        <button disabled class="bg-slate-300 text-slate-600 text-sm font-semibold px-6 py-2.5 rounded-lg cursor-not-allowed">
+          Tickets Coming Soon
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Directory Section Placeholder -->
+  <section id="directory" class="bg-slate-100 py-16 px-6">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-8">
+        <h2 class="text-2xl md:text-3xl font-serif font-bold text-brandNavy">Attendee Referral Directory</h2>
+        <p class="text-slate-600 text-sm mt-2">Connect with professionals who attended our signature reception.</p>
+      </div>
+      <div class="bg-white rounded-xl border border-slate-200 p-8 text-center max-w-xl mx-auto">
+        <p class="text-sm text-slate-600 mb-2 font-medium">Directory registration is exclusive to event attendees.</p>
+        <p class="text-xs text-slate-400">The 2027 directory entries will publish following our next reception.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto bg-brandNavy text-slate-400 py-8 px-6 text-xs text-center border-t border-slate-800">
+    <p>© 2026 ABLE of Tampa Bay. An affiliate of Tampa Bay Women CPAs.</p>
+  </footer>
+
+</body>
+</html>
